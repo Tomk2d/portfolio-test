@@ -8,7 +8,6 @@
 
 body {
   font-family: "Cafe24Supermagic-Bold-v1.0";
-  transform: scale(0.8);
 }
 
 nav {
@@ -153,7 +152,6 @@ header h1 em {
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  flex-shrink: 0;
 }
 
 .b{
@@ -172,7 +170,7 @@ header h1 em {
 }
 
 .page2-p{
-  height: 172px;
+  height: auto;
   flex-shrink: 0;
   align-self: stretch;
 

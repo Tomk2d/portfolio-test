@@ -2,6 +2,16 @@
 <html lang="ko">
 
 <head>
+    <!-- Google tag (gtag.js) 구글 애널리틱스 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HRJBBSWP94"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HRJBBSWP94');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -28,8 +38,8 @@
                 OOO입니다.<br />
             </h1>
             <div class="headerLinkContainer">
-                <a class="headerLink1" href="https://github.com/Tomk2d" target="_blank">Github Link</a>
-                <a class="headerLink2" href="https://url.kr/35wtmx" target="_blank">Resume Link</a>
+                <a class="headerLink1" onclick="onClickButton" href="https://github.com/Tomk2d" target="_blank">Github Link</a>
+                <a class="headerLink2" onclick="onClickButton" href="https://url.kr/35wtmx" target="_blank">Resume Link</a>
             </div>
         </div>
 
@@ -65,16 +75,16 @@
         </p>
         <div>
             <ul class="teckLogos">
+                <li><img src="./java logo.png" alt="java" /></li>
+                <li><img src="./spring logo.png" alt="spring" /></li>
                 <li><img src="./python logo.png" alt="python" /></li>
-                <li><img src="./java logo.png" alt="bootstrap" /></li>
-                <li><img src="./assets/images/ic-bootstrap.svg" alt="bootstrap" /></li>
-                <li><img src="./assets/images/ic-bootstrap.svg" alt="bootstrap" /></li>
-                <li><img src="./assets/images/ic-bootstrap.svg" alt="bootstrap" /></li>
-                <li><img src="./assets/images/ic-bootstrap.svg" alt="bootstrap" /></li>
-                <li><img src="./assets/images/ic-bootstrap.svg" alt="bootstrap" /></li>
-                <li><img src="./assets/images/ic-bootstrap.svg" alt="bootstrap" /></li>
-                <li><img src="./assets/images/ic-bootstrap.svg" alt="bootstrap" /></li>
-                <li><img src="./assets/images/ic-bootstrap.svg" alt="bootstrap" /></li>
+                <li><img src="./tensorflow logo.png" alt="tensorflow" /></li>
+                <li><img src="./pytorch logo.png" alt="pytorch" /></li>
+                <li><img src="./aws logo.png" alt="aws" /></li>
+                <li><img src="./mysql logo.png" alt="mysql" /></li>
+                <li><img src="./git logo.png" alt="git" /></li>
+                <li><img src="./vscode logo.png" alt="vscode" /></li>
+                <li><img src="./intellij logo.png" alt="intellij" /></li>
             </ul>
         </div>
     </section>
@@ -86,7 +96,22 @@
         <a href="mailto:cookie00421@gmail.com">이메일</a>
     </div>
 
-
+    <script>
+        function onClickButton(type){
+            if(type ==='github'){
+                gtag('event',"깃허브_버튼_클릭", {
+                    'event_category' : '깃허브_버튼_클릭',
+                    'event_label' : '깃허브_버튼 클릭'
+                })
+            }
+            else if(type === 'resume'){
+                gtag('event',"이력서_버튼_클릭", {
+                    'event_category' : '이력서_버튼 클릭',
+                    'event_label' : '이력서_버튼 클릭'
+                })
+            }
+        }
+    </script>
 
 
 </body>

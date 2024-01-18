@@ -145,6 +145,7 @@
     }
 
     .page2-p{
+        word-break: keep-all;
         height: auto;
         flex-shrink: 0;
         align-self: stretch;
@@ -210,4 +211,273 @@
         height: 80px;
     }
 
+    .projectContainer{
+        display: flex;
+        padding : 60px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex: 1 0 0;
+    }
+
+    .projectContainer h1{
+        color: #403930;
+        /* sectionTitle */
+        font-family: Pretendard;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; /* 108.333% */
+        letter-spacing: -0.48px;
+    }
+
+    .project1{
+        box-sizing: border-box;
+        display: flex;
+        background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+        width : 100%;
+        flex-direction: column-reverse;
+        padding : 24px 16px;
+        align-items: center;
+        gap: 16px;
+        justify-content: space-between;
+    }
+
+    .project1_photo{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        width: auto;
+        height: auto;
+        padding: 0px 0px;
+    }
+      
+    .project1_photo img{
+        width : 100px;
+        height: 202.5px;
+        margin-right: 0px;
+    }
+
+    .project1_p{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .project2{
+        box-sizing: border-box;
+        display: flex;
+        background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+        width : 100%;
+        flex-direction: column-reverse;
+        padding : 24px 16px;
+        align-items: center;
+        gap: 16px;
+        justify-content: space-between;
+    }
+
+    .project2_photo{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        width: auto;
+        height: auto;
+        padding: 0px 0px;
+    }
+      
+    .project2_photo img{
+        width : 100px;
+        height: 202.5px;
+        margin-right: 0px;
+    }
+
+    .project2_p{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+ 
+    .project3{
+        box-sizing: border-box;
+        display: flex;
+        background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+        width : 100%;
+        flex-direction: column-reverse;
+        padding : 24px 16px;
+        align-items: center;
+        gap: 16px;
+        justify-content: space-between;
+    }
+
+    .project3_photo{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        width: auto;
+        height: auto;
+        padding: 0px 0px;
+    }
+      
+    .project3_photo img{
+        width : 100px;
+        height: 202.5px;
+        margin-right: 0px;
+    }
+
+    .project3_p{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .link-container{
+        display: flex;
+        width : auto;
+        flex-direction: row;
+        gap : 24px;
+        border-radius: 24px;
+    }
     
+    .link-container a{
+        font-size: 20px;
+
+    }
+
+    .review{
+        padding: 60px 24px;
+    }
+
+    .review-form{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .review-h1{
+        color: #403930;
+        font-family: Pretendard;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; /* 50px */
+        letter-spacing: -0.48px;
+        text-align: center;
+    }
+
+    .review-container{
+        display: flex;
+        width: 342px;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .review1{
+        display: flex;
+        width: 270px;
+        height: auto;
+        padding: 24px 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+      
+        border-radius: 10px;
+        background: #FAFAFA;
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .review1-content{
+        color: #403930;
+        font-family: Work Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 30px */
+    }
+
+    .review1-member{
+        color: #1866AF;
+        text-align: right;
+        width: 100%;
+        font-family: Work Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 125% */
+        margin-bottom: 0px;
+    }
+
+    .review2{
+        display: flex;
+        width: 270px;
+        height: auto;
+        padding: 24px 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+      
+        border-radius: 10px;
+        background: #FAFAFA;
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .review2-content{
+        color: #403930;
+        font-family: Work Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 30px */
+    }
+
+    .review3{
+        display: flex;
+        width: 270px;
+        height: auto;
+        padding: 24px 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+      
+        border-radius: 10px;
+        background: #FAFAFA;
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .review3-content{
+        color: #403930;
+        font-family: Work Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 30px */
+    }
+
+    .end-form{
+        padding: 60px 24px;
+        background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+    }
+
+    .end-form-form{
+        padding: 0px 0px;
+    }
+
+    .end-h1{
+        color: #403930;
+        font-family: Pretendard;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%; /* 60px */
+        letter-spacing: -0.48px;
+    }
+

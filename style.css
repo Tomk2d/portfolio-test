@@ -285,6 +285,7 @@ header h1 em {
 .project1{
   display: flex;
   background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+  width : 100%;
   padding-left: 40px;
   align-items: center;
   gap: 40px;
@@ -292,6 +293,40 @@ header h1 em {
 }
 
 .project1_p{
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project2{
+  display: flex;
+  background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+  width : 100%;
+  padding-left: 40px;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.project2_p{
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project3{
+  display: flex;
+  background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+  width : 100%;
+  padding-left: 40px;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.project3_p{
   display: flex;
   width: auto;
   flex-direction: column;
@@ -310,13 +345,20 @@ header h1 em {
 }
 
 .discription{
+  word-break: keep-all;
   color: #403930;
   font-family: Pretendard;
+  width : 285px;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 24px */
   margin-bottom: 24px;
+
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .link-container{
@@ -341,9 +383,36 @@ header h1 em {
   margin-right: 20.9px;
 }
 
+.project2_photo{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  padding: 48px 36px;
+}
+
+.project2_photo img{
+  width : 155px;
+  height: 327px;
+  margin-right: 20.9px;
+}
+
+.project3_photo{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  padding: 48px 36px;
+}
+
+.project3_photo img{
+  width : 155px;
+  height: 327px;
+  margin-right: 20.9px;
+}
+
 .review{
-  margin-top: 80px;
-  margin-bottom: 120px;
+  padding: 80px 0px 120px 0px;
 }
 
 .review-form{
@@ -374,7 +443,7 @@ header h1 em {
 
 .review1{
   display: flex;
-  width: auto;
+  width: 360px;
   height: auto;
   padding: 0px 39px;
   flex-direction: column;
@@ -394,9 +463,123 @@ header h1 em {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 30px */
+  margin-top: 30px;
 }
 
+.review1-member{
+  color: #403930;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 125% */
+  margin-bottom: 30px;
+}
 
+.review2{
+  display: flex;
+  width: 360px;
+  height: auto;
+  padding: 0px 39px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  border-radius: 10px;
+  background: #FAFAFA;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.review2-content{
+  color: #403930;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  margin-top: 30px;
+}
+
+.review2-member{
+  color: #403930;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 125% */
+  margin-bottom: 30px;
+}
+
+.review3{
+  display: flex;
+  width: 360px;
+  height: auto;
+  padding: 0px 39px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  border-radius: 10px;
+  background: #FAFAFA;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.review3-content{
+  color: #403930;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  margin-top: 30px;
+}
+
+.review3-member{
+  color: #403930;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 125% */
+  margin-bottom: 30px;
+}
+
+/* 마지막 인사 */
+
+.end-form{
+  padding: 64px;
+  background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+}
+
+.end-form-form{
+  padding: 30px 0px;
+}
+
+.end-h1{
+  color: #403930;
+  font-family: Pretendard;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 60px */
+  letter-spacing: -0.96px;
+}
+
+.end-contact{
+  padding: 53px 0px 99px 0px;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+}
 
 /*---- 애니메이션 ----*/
 

@@ -145,7 +145,7 @@ header h1 em {
   
   border-radius: 500px;
   border: 10px solid #BCF2F9;
-  background-image: url('https://ibb.co/NCdS1kN'), lightgray 50% / cover no-repeat;
+  background-image: url("./image/mango.jpeg"), lightgray 50% / cover no-repeat;
 }
 
 .page2Container{
